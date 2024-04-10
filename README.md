@@ -1,5 +1,17 @@
 # react-native-asset
-[![npm version](https://badge.fury.io/js/react-native-asset.svg)](https://badge.fury.io/js/react-native-asset)[![Build Status](https://travis-ci.org/unimonkiez/react-native-asset.svg?branch=master)](https://travis-ci.org/unimonkiez/react-native-asset)
+<!-- [![npm version](https://badge.fury.io/js/react-native-asset.svg)](https://badge.fury.io/js/react-native-asset)[![Build Status](https://travis-ci.org/unimonkiez/react-native-asset.svg?branch=master)](https://travis-ci.org/unimonkiez/react-native-asset) -->
+
+## This is an extended version of the [`react-native-asset`](https://github.com/unimonkiez/react-native-asset) project with support of `react-native.config.js` sourceDirs
+
+### Installation
+
+```js
+yarn add --dev wagnerpal/react-native-asset#1.0.0
+```
+or
+```js
+npm install --dev wagnerpal/react-native-asset#1.0.0
+```
 
 ## Link and unlink assets to your react-native project with ease!
 
@@ -38,6 +50,20 @@
     "./src/font/android",
   ],
   ```
+
+* This version is considering the  `react-native.config.js` sourceDirs to find the project folders
+  ```js
+  ...
+  project: {
+      android: {
+        sourceDir: './apps/android'
+      },
+      ios: {
+        sourceDir: './apps/ios'
+      }
+    },
+  ```
+
 
 * Run the command and linking + unlinking is automatic!
   ```bash
