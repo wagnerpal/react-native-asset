@@ -10,7 +10,7 @@ yarn add --dev wagnerpal/react-native-asset#1.0.0
 ```
 or
 ```js
-npm install --dev wagnerpal/react-native-asset#1.0.0
+npm install --save-dev wagnerpal/react-native-asset#1.0.0
 ```
 
 ## Link and unlink assets to your react-native project with ease!
